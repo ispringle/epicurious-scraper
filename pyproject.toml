@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "epicurious-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Ian Pringle <ipringle2@liberty.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bs4 = "^0.0.1"
+requests = "^2.25.1"
+icecream = "^2.1.0"
+halo = "^0.0.31"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
